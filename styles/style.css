@@ -48,13 +48,19 @@ body{
       width: 270px;
       height: 56px;
       font-weight: 600;
-      width:auto;
       color:#FFFFFF ;
       border-radius: 8px;
       padding: 17px 34px ;
       background-color:#006A50 ;
       border-style: solid;
       border-color:#006A50 ;
+}
+.banner-btn:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    transition: 0.2s;
+    transform: translateY(23px);
+
 }
 .banner-pic{
       width: 474.03px;
@@ -161,6 +167,24 @@ div p{color:dimgray;
             border-radius: 8px;
             
         }
+        .btn-1:hover{
+            cursor: pointer;
+            background-color: gainsboro;
+            transform: translateY(10px);
+            transition: 0.2s;
+        }
+        .btn-2:hover{
+            cursor: pointer;
+            background-color: gainsboro;
+            transform: translateY(10px);
+            transition: 0.2s;
+        }
+        .btn-3:hover{
+            cursor: pointer;
+            background-color: gainsboro;
+            transform: translateY(10px);
+            transition: 0.2s;
+        }
         div img{
             margin-left: 10px;
         }
@@ -184,7 +208,7 @@ h1{
     font-weight: bold;
     font-size: 40px;
 }
-.newsbox1{
+.news-box1{
     width: 1280px;
     height: 400px;
     padding: 48px 40px;
@@ -199,7 +223,7 @@ h1{
     gap: 5px;
     margin: 6px 2px;
 }
-.sattelite1{
+.s1{
     width: 800px;
     margin: 10px auto;
     border-radius: 24px;
@@ -212,15 +236,9 @@ h1{
     #paragraph{
         margin: 8px 0;
     }
-    .newshead{
-        
-        
-       
-    }
+
     
-.newsicon{
-        margin: 10px 0;
-    }
+
    .news-content{
     margin: 20px 10px;
    }
@@ -230,10 +248,105 @@ h1{
     margin: 25px 0;
     width: 160px;
     height: 60px;
-    
     border-radius: 7px;
    background-color:green ;
    color:white;
+   
+}
+#read:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: red;
+    transform: translateY(10px);
 }
 /* section last */
 
+.donation-section{
+    width: 1280px;
+    height: 440px;
+    background-color: #F1F1F3;
+    padding: 100px;
+    margin: 40px ;
+    border-radius: 24px;
+    text-align: center;
+
+
+}
+.donation-section h1{
+   
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+.donation-section p{
+    margin: 20px 0;
+    
+}
+ 
+
+.btn1, .btn2,.btn3,.btn4{
+    background-color: aliceblue;
+    
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    font-size: 30px;
+    margin: 15px 50px;
+    border-radius: 10px;
+    gap: 30px;
+   
+}
+.btn1:hover{
+    cursor: pointer;
+    color:black ;
+    background-color: mediumblue;
+    transform: translateY(14px);}
+.btn2{
+    background:green;
+
+}
+.btn2:hover{
+    cursor: pointer;
+   color:green ; 
+    background-color:purple;
+    transform: translateY(10px);
+}
+.btn3:hover{ 
+    cursor: pointer;
+    color:black ;
+    
+    background-color: mediumblue;
+    transform: translateY(14px);
+
+}
+.btn4:hover{  
+     cursor: pointer;
+     color:black ;
+      background-color: mediumblue;
+    transform: translateY(14px);
+}
+.btn-done{
+    margin: 30px 0;
+    border: 3px solid white;
+    border-radius: 6px;
+    color: aliceblue;
+    padding: 6px;
+    transition: 0.2s;
+    background: green;
+
+
+}
+.btn-done:hover{
+    background-color: red;
+    transform: translateY(5px);
+
+}
+#input1{
+    width: 600px;
+    margin: 30px 0;
+    padding: 8px;
+   border: none;
+}
+
+/* finish section main part */
