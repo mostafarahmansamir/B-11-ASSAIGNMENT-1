@@ -10,11 +10,9 @@ body{
 }
 
 /* header */
-nav{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-}
+
+
+
 /* banner */
 .banner{
       
@@ -55,10 +53,117 @@ nav{
       border-radius: 8px;
       padding: 17px 34px ;
       background-color:#006A50 ;
+      border-style: solid;
+      border-color:#006A50 ;
 }
 .banner-pic{
       width: 474.03px;
       height: 400px;
 }
+/* vision */
+.vision{
+      background-color:#F1F1F3;
+       padding: 100px;
+      width: 1280px;
+      height: 440px;
+      margin: 40px ;
+      border-radius: 24px;
+    
+     
+   
+   
+    
+  }
+  .vision-content{
+      width: 1180px;
+      height: 120px;
+  
+     
+  
+  }
+  .vision-card{
+      
+      width: 350px;
+      height: 300px;
+     
+      padding: 32px 0px;
+      
+      display: flex;
+      justify-content: space-between;
+      width:1280px;
+     
+   
+     
+}
+div p{color:dimgray;
+      margin-bottom: 8px; 
+  }
+ .card{
+            box-sizing: border-box;
+        border-radius: 16px;
+        width: 380px;
+        height: 330px;
+        background:rgba(84, 144, 245, 0.2);
+        padding: 20px 20px;
+        margin-top: 0px;
+        margin-left: 0;
+        }
+        .card h4{
+            margin: 20px 0px;
+        }
+        .card p{
+            margin-top: 10px;
+        }
+        .btn-1{font-weight: 600;
+            font-size: 16;
+            margin-top: 20px;
+            
+            border-radius: 8px;
+            padding: 4px;
+            color: white;
+            width: 100px;
+            height: 40px;
+           border-color: royalblue;
+            border-style: solid;
+            background: royalblue;
+            
+        }
+        #card2{
+            background-color: #C6E4D6;
+        }
+        .btn-2{
+            font-weight: 600;
+            font-size: 16;
+            margin-top: 20px;
+            
+            width: 100px;
+            height: 40px;
+            background-color: chocolate;
+            border-radius: 8px;
+            border-style: solid;
+            border-color:chocolate ;
+            padding: 4px;
+            color: white;
+        }
+        #card3{
+            background-color: #F7EBCF;
+        }
+        .btn-3{font-weight: 600;
+            font-size: 16;
+            margin-top: 20px;
+            width: 100px;
+            height: 40px;
+            color: white;
+            border-style: solid;
+            background-color: hotpink;
+            border-color: hotpink;
+            padding: 4px;
+            border-radius: 8px;
+            
+        }
+        div img{
+            margin-left: 10px;
+        }
+/* vision-finish */
 
 
